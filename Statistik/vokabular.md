@@ -350,3 +350,38 @@ Mittelwert=Summe der WerteAnzahl der Werte\text{Mittelwert} = \frac{\text{Summe 
 - **Wann benutzt man den Median?**
   - Bei **asymmetrischen Verteilungen** oder Daten mit Ausreißern.
   - Wenn der mittlere Wert der Daten wichtiger ist als der Durchschnitt (z. B. Haushaltseinkommen).
+
+---
+
+
+
+### **Varianz und Standardabweichung – Prägnante Übersicht**
+
+#### **Varianz**
+
+* **Definition** : Misst die durchschnittliche quadrierte Abweichung der Datenwerte vom Mittelwert.
+* **Vorteile** :
+* Präzise Darstellung der Streuung.
+* Grundlage für viele statistische Verfahren (z. B. ANOVA, Regressionsanalyse).
+* **Nachteil** :
+* Einheit ist quadriert, was die Interpretation erschwert.
+* **Verwendung** :
+* Für mathematische Analysen und Verfahren, die präzise Streuungsmaße benötigen.
+
+#### **Standardabweichung**
+
+* **Definition** : Quadratwurzel der Varianz; gibt die durchschnittliche Abweichung der Datenwerte vom Mittelwert an.
+* **Vorteile** :
+* Einheit ist identisch mit den Daten, daher leicht interpretierbar.
+* Ermöglicht einfache Vergleiche zwischen Datensätzen.
+* **Nachteil** :
+* Weniger empfindlich für große Abweichungen (im Vergleich zur Varianz).
+* **Verwendung** :
+* Für die Kommunikation von Streuung, da sie intuitiver ist.
+
+
+### **Zusammenfassung**
+
+* **Varianz** ist ein präzises Maß für die Streuung, aber schwer zu interpretieren, da sie quadrierte Einheiten hat.
+* **Standardabweichung** ist die intuitivere und praktischere Maßzahl, da sie dieselbe Einheit wie die Daten hat.
+* Beide sind unverzichtbar für das Verständnis von Streuung und für viele statistische Anwendungen.
