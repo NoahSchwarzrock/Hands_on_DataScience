@@ -145,7 +145,7 @@ Statistische Verfahren basieren auf der Art der Merkmale, die analysiert werden.
 
 - Bei diskreten Merkmalen ist oft keine Gruppierung nötig, da die Werte eindeutig abzählbar sind. Falls die Werte eine große Bandbreite haben, können sie in **Klassen** eingeteilt werden.
   - **Klasse** : Ein Bereich, der mehrere Werte umfasst (z. B. "0–2 Kinder", "3–5 Kinder").
-  - **Klassenmitte** : Der Mittelwert der Grenzen einer Klasse (z. B. für die Klasse "0–2" ist die Klassenmitte (0+2)/2=1(0 + 2) / 2 = 1**(**0**+**2**)**/2**=**1).
+  - **Klassenmitte** : Der Mittelwert der Grenzen einer Klasse (z. B. für die Klasse "0–2" ist die Klassenmitte (0+2)/2=1
 
 #### Verfahren:
 
@@ -163,7 +163,7 @@ Statistische Verfahren basieren auf der Art der Merkmale, die analysiert werden.
 
 - Quasi-stetige Merkmale werden meist in Klassen eingeteilt, um die Daten zu vereinfachen und übersichtlicher darzustellen.
   - **Klassen** : Einkommen in Kategorien wie "0–1.000 €", "1.001–2.000 €".
-  - **Klassenmitte** : Der Durchschnitt der Klassengrenzen (z. B. für die Klasse "0–1.000" ist die Klassenmitte (0+1.000)/2=500(0 + 1.000) / 2 = 500**(**0**+**1.000**)**/2**=**500).
+  - **Klassenmitte** : Der Durchschnitt der Klassengrenzen (z. B. für die Klasse "0–1.000" ist die Klassenmitte (0+1.000)/2=500
 
 #### Verfahren:
 
@@ -181,7 +181,7 @@ Statistische Verfahren basieren auf der Art der Merkmale, die analysiert werden.
 
 - Stetige Merkmale werden immer in Klassen gruppiert, da es unmöglich ist, unendlich viele Werte darzustellen.
   - **Klassen** : Körpergrößen in Intervallen wie "160–165 cm", "165–170 cm".
-  - **Klassenmitte** : Der Durchschnitt der Klassengrenzen (z. B. für die Klasse "160–165" ist die Klassenmitte (160+165)/2=162,5(160 + 165) / 2 = 162,5**(**160**+**165**)**/2**=**162**,**5).
+  - **Klassenmitte** : Der Durchschnitt der Klassengrenzen (z. B. für die Klasse "160–165" ist die Klassenmitte (160+165)/2=162,5
 
 #### Verfahren:
 
@@ -345,8 +345,8 @@ Mittelwert=Summe der WerteAnzahl der Werte\text{Mittelwert} = \frac{\text{Summe 
 - Zeigt den zentralen Wert der Daten.
 - Robuster gegenüber **Ausreißern** als der Mittelwert.
 - **Beispiel** :
-- Daten (ungerade): [1,2,3,4,5][1, 2, 3, 4, 5]**[**1**,**2**,**3**,**4**,**5**]** → Median: 33**3**.
-- Daten (gerade): [1,2,3,4,100,200][1, 2, 3, 4, 100, 200]**[**1**,**2**,**3**,**4**,**100**,**200**]** → Median: (3+4)/2=3.5(3 + 4) / 2 = 3.5**(**3**+**4**)**/2**=**3.5.
+- Daten (ungerade): [1,2,3,4,5][1, 2, 3, 4, 5]**[**1**,**2**,**3**,**4**,**5**]** → Median: **3**.
+- Daten (gerade): [1,2,3,4,100,200][1, 2, 3, 4, 100, 200]**[**1**,**2**,**3**,**4**,**100**,**200**]** → Median: (3+4)/2=3.5
 - **Wann benutzt man den Median?**
   - Bei **asymmetrischen Verteilungen** oder Daten mit Ausreißern.
   - Wenn der mittlere Wert der Daten wichtiger ist als der Durchschnitt (z. B. Haushaltseinkommen).
@@ -406,8 +406,6 @@ Mittelwert=Summe der WerteAnzahl der Werte\text{Mittelwert} = \frac{\text{Summe 
 
 ---
 
-
-
 ### Quantile und Boxplots (mit Beispiel)
 
 #### **1. Quantile**
@@ -451,8 +449,6 @@ Ein **Boxplot** stellt die Verteilung der Daten grafisch dar:
 * **Whisker** : Linien zu Minimum und Maximum (außer bei Ausreißern).
 
 ---
-
-
 
 #### **Lorenzkurve**
 
@@ -502,7 +498,7 @@ Ein **Boxplot** stellt die Verteilung der Daten grafisch dar:
 
 #### **Lösung: Normierung**
 
-* Der **normierte Gini-Koeffizient** (G∗G^***G**∗) skaliert GG**G**, sodass er maximal 1 erreicht.
+* Der **normierte Gini-Koeffizient** (G∗G^***G**∗) skaliert GGG**, sodass er maximal 1 erreicht.
 * Formel:
   G∗=nn−1⋅GG^* = \frac{n}{n-1} \cdot G**G**∗**=**n**−**1**n****⋅**G
   * nn**n**: Anzahl der Beobachtungen.
@@ -524,10 +520,7 @@ Ein **Boxplot** stellt die Verteilung der Daten grafisch dar:
 | **Gini-Koeffizient (GG**G**)**          | Maß für die Ungleichverteilung, basierend auf der Konzentrationsfläche (G=2⋅BG = 2 \cdot B**G**=**2**⋅**B**). |
 | **Normierter Gini (G∗G^***G**∗)** | Skaliert den Gini-Koeffizienten, sodass maximale Konzentration den Wert 1 erreicht.                                      |
 
-
-
 ---
-
 
 ### **Bivariate und multivariate Analyse**
 
@@ -583,8 +576,6 @@ Ein **Boxplot** stellt die Verteilung der Daten grafisch dar:
 * Streifenanteile zeigen relative Häufigkeiten der Werbebotschaftsklassen ([4;8), [8;12), [12;16]).
 
 ---
-
-
 
 ### **Korrelationsanalyse**
 
@@ -646,8 +637,6 @@ r=Kovarianz(x,y)Standardabweichung(x)⋅Standardabweichung(y)r = \frac{\text{Kov
 
 ---
 
-
-
 ### **Rangkorrelation nach Spearman**
 
 #### **Definition**
@@ -698,7 +687,89 @@ Einsetzen der Werte in die Formel ergibt den Spearman-Koeffizienten ρ\rho**ρ**
 
 Die **Rangkorrelation nach Spearman** misst monotone Zusammenhänge zwischen zwei Variablen. Sie eignet sich besonders für ordinalskalierte oder nicht normalverteilte Daten und bietet eine robuste Alternative zur Pearson-Korrelation.
 
+---
 
+# Zeitreihenanalyse: Komponenten und Filtermethoden
+
+## Komponenten der Zeitreihenanalyse
+
+### 1. **Trend**
+
+* **Definition** : Ein langfristiger Aufwärts- oder Abwärtstrend in den Daten, der eine allgemeine Richtung über einen längeren Zeitraum zeigt.
+* **Beispiele** :
+* Wachsender Umsatz eines Unternehmens über Jahre.
+* Anstieg der globalen Durchschnittstemperatur.
+
+### 2. **Zyklus**
+
+* **Definition** : Schwankungen, die über einen längeren Zeitraum auftreten und oft mit wirtschaftlichen oder natürlichen Zyklen zusammenhängen.
+* **Beispiele** :
+* Wirtschaftliche Konjunkturzyklen (Boom und Rezession).
+* Natürliche Wetterphänomene wie El Niño.
+
+### 3. **Saison**
+
+* **Definition** : Regelmäßige und wiederholbare Muster innerhalb eines festen Zeitrahmens (z. B. ein Jahr, ein Monat).
+* **Beispiele** :
+* Höherer Einzelhandelsumsatz in der Weihnachtszeit.
+* Temperaturveränderungen über Jahreszeiten hinweg.
+
+# Filtermethoden in der Zeitreihenanalyse
+
+### Was macht der gleitende Durchschnitt?
+
+Der **gleitende Durchschnitt** glättet Daten, indem er das Mittel der Werte in einem definierten **Fenster** berechnet. Das Fenster bewegt sich schrittweise über die Zeitreihe, wodurch für jeden Zeitpunkt ein neuer Durchschnittswert berechnet wird.
+
+* **Fenstergröße** : Gibt an, wie viele Datenpunkte für die Berechnung des Durchschnitts verwendet werden (z. B. 3 Werte bei einem Fenster von 3).
+* **Bewegung über die Daten** : Das Fenster "gleitet" von Anfang bis Ende der Zeitreihe, daher der Name "gleitender Durchschnitt".
+
+---
+
+### Betrachtung der gesamten Datenreihe?
+
+* **Nein** , der gleitende Durchschnitt berücksichtigt nicht alle Daten der gesamten Zeitreihe gleichzeitig.
+* Stattdessen wird immer nur ein **lokaler Ausschnitt** (definiert durch die Fenstergröße) betrachtet, um Trends oder Muster innerhalb dieses Bereichs zu glätten.
+
+Beispiel:
+
+* Zeitreihe: `[2, 4, 6, 8, 10, 12]`
+* Fenstergröße: 3
+* Berechnungen:
+  * Mittelwert der ersten 3 Werte: (2+4+6)/3=4\text{Mittelwert der ersten 3 Werte: } (2 + 4 + 6) / 3 = 4**Mittelwert der ersten 3 Werte: **(**2**+**4**+**6**)**/3**=**4**
+  * Na¨chster Mittelwert: (4+6+8)/3=6\text{Nächster Mittelwert: } (4 + 6 + 8) / 3 = 6**N**a**¨**chster Mittelwert: **(**4**+**6**+**8**)**/3**=**6
+  * usw.
+
+---
+
+### Warum ist das Fenster wichtig?
+
+Das Fenster bestimmt:
+
+* **Granularität** der Glättung:
+  * **Kleines Fenster** : Schneller auf Änderungen reagieren, aber weniger geglättet.
+  * **Großes Fenster** : Stärkere Glättung, aber langsame Reaktion.
+* **Anzahl der berücksichtigten Werte** :
+* Ein gleitender Durchschnitt mit einem Fenster von 3 bezieht nur 3 Werte auf einmal ein – unabhängig davon, wie lang die Zeitreihe ist.
+
+---
+
+### **Exponentielle Glättung**
+
+#### Was ist das?
+
+* Eine fortgeschrittene Methode, die den Einfluss vergangener Datenpunkte exponentiell verringert, je weiter sie in der Vergangenheit liegen.
+* **Vorteil** : Gibt neueren Daten mehr Gewicht, was zu schnellerer Anpassung an Veränderungen führt.
+
+#### Unterschiede zum gleitenden Durchschnitt:
+
+| **Merkmal**                | **Gleitender Durchschnitt**                                 | **Exponentielle Glättung**                  |
+| -------------------------------- | ----------------------------------------------------------------- | -------------------------------------------------- |
+| **Gewichtung der Daten**   | Alle berücksichtigten Punkte werden gleich gewichtet.            | Neueren Punkten wird mehr Gewicht gegeben.         |
+| **Anpassungsfähigkeit**   | Träge, reagiert langsamer auf plötzliche Änderungen.           | Schneller, passt sich plötzlichen Änderungen an. |
+| **Berechnungsaufwand**     | Einfach zu berechnen.                                             | Etwas komplexer durch Gewichtung.                  |
+| **Vergangene Datenpunkte** | Feste Fenstergröße, ältere Daten werden nicht berücksichtigt. | Berücksichtigt alle vergangenen Daten.            |
+
+---
 
 ### **Kombinatorik – Übersicht**
 
@@ -740,7 +811,7 @@ Die **Kombinatorik** ist ein Teilgebiet der Mathematik, das sich mit der **Anzah
 | **Art der Kombination**       | **Zurücklegen?** | **Reihenfolge?** | **Formel**                                                               | **Beispiel**               |
 | ----------------------------------- | ----------------------- | ---------------------- | ------------------------------------------------------------------------------ | -------------------------------- |
 | Mit Zurücklegen, mit Reihenfolge   | Ja                      | Ja                     | nkn^k**n**k                                                              | Passwörter, Zahlenkombinationen |
-| Ohne Zurücklegen, mit Reihenfolge  | Nein                    | Ja                     | n!(n−k)!\frac{n!}{(n-k)!}**(**n**−**k**)!**n**!**          | Sitzordnungen, Ranglisten        |
+| Ohne Zurücklegen, mit Reihenfolge  | Nein                    | Ja                     | n!(n−k)!\frac{n!}{(n-k)!}**(**n**−**k**)!**n**!**    | Sitzordnungen, Ranglisten        |
 | Mit Zurücklegen, ohne Reihenfolge  | Ja                      | Nein                   | (n+k−1k)\binom{n+k-1}{k}**(**k**n**+**k**−**1****)** | Auswahl von Kugeln mit Farben    |
 | Ohne Zurücklegen, ohne Reihenfolge | Nein                    | Nein                   | (nk)\binom{n}{k}**(**k**n****)**                                   | Lotto, Ziehen von Karten         |
 
@@ -754,8 +825,6 @@ Die **Kombinatorik** ist ein Teilgebiet der Mathematik, das sich mit der **Anzah
 
 ---
 
-
-
 ### **Zufallsexperimente und wichtige Begriffe**
 
 Ein **Zufallsexperiment** ist ein Vorgang, dessen **Ausgang ungewiss** ist, jedoch durch bestimmte Regeln beschrieben werden kann. Beispiele: Würfeln, Münzwurf, Ziehen einer Karte.
@@ -764,21 +833,21 @@ Ein **Zufallsexperiment** ist ein Vorgang, dessen **Ausgang ungewiss** ist, jedo
 
 ### **Wichtige Begriffe**
 
-1. **Ergebnisraum (Ω\Omega**Ω**)**
+1. Ergebnisraum (Ω)
    * Die Menge aller **möglichen Ergebnisse** eines Zufallsexperiments.
-   * Beispiel: Beim Würfeln ist Ω={1,2,3,4,5,6}\Omega = \{1, 2, 3, 4, 5, 6\}**Ω**=**{**1**,**2**,**3**,**4**,**5**,**6**}**.
+   * Beispiel: Beim Würfeln ist Ω={1,2,3,4,5,6}
 2. **Elementares Ereignis**
    * Ein einzelnes Ergebnis aus dem Ergebnisraum.
-   * Beispiel: {3}\{3\}**{**3**}** beim Würfeln ist ein elementares Ereignis.
-3. **Ereignis (AA**A**)**
+   * Beispiel: {3} beim Würfeln ist ein elementares Ereignis.
+3. **Ereignis (A**)
    * Eine Teilmenge des Ergebnisraums; kann **ein oder mehrere Ergebnisse** enthalten.
-   * Beispiel: „Gerade Zahl würfeln“ ist A={2,4,6}A = \{2, 4, 6\}**A**=**{**2**,**4**,**6**}**.
+   * Beispiel: „Gerade Zahl würfeln“ ist A={2,4,6}
 4. **Sicheres Ereignis**
    * Enthält **alle möglichen Ergebnisse** des Experiments.
-   * Beispiel: Beim Würfeln ist das sichere Ereignis A=Ω={1,2,3,4,5,6}A = \Omega = \{1, 2, 3, 4, 5, 6\}**A**=**Ω**=**{**1**,**2**,**3**,**4**,**5**,**6**}**.
+   * Beispiel: Beim Würfeln ist das sichere Ereignis A=Ω={1,2,3,4,5,6}
 5. **Unmögliches Ereignis**
    * Enthält  **kein einziges Ergebnis** ; es tritt nie ein.
-   * Beispiel: „Eine 7 würfeln“ ist A=∅A = \emptyset**A**=**∅** (die leere Menge).
+   * Beispiel: „Eine 7 würfeln“ ist A=∅A {}
 
 ---
 
@@ -786,35 +855,284 @@ Ein **Zufallsexperiment** ist ein Vorgang, dessen **Ausgang ungewiss** ist, jedo
 
 Die Begriffe aus Zufallsexperimenten lassen sich durch **Mengenlehre** beschreiben:
 
-* **Ergebnisraum** (Ω\Omega**Ω**): Die Grundmenge.
-* **Ereignisse** : Teilmengen von Ω\Omega**Ω**.
-* **Sicheres Ereignis** : Die Menge Ω\Omega**Ω** selbst.
-* **Unmögliches Ereignis** : Die leere Menge ∅\emptyset**∅**.
-* **Elementares Ereignis** : Ein einzelnes Element von Ω\Omega**Ω**.
+* **Ergebnisraum** (Ω\): Die Grundmenge.
+* **Ereignisse** : Teilmengen von Ω.
+* **Sicheres Ereignis** : Die Menge Ω selbst.
+* **Unmögliches Ereignis** : Die leere Menge {}.
+* **Elementares Ereignis** : Ein einzelnes Element von Ω.
 
  **Operationen mit Ereignissen** :
 
-* **Vereinigung** (A∪BA \cup B**A**∪**B**): „A oder B tritt ein.“
-* **Schnittmenge** (A∩BA \cap B**A**∩**B**): „A und B treten gleichzeitig ein.“
-* **Komplement** (AcA^c**A**c): „A tritt nicht ein“ (alle Elemente aus Ω\Omega**Ω**, die nicht in AA**A** sind).
+* **Vereinigung** (A∪B oder **A**∪**B**): „A oder B tritt ein.“
+* **Schnittmenge** (A∩B): „A und B treten gleichzeitig ein.“
+* **Komplement** (A'): „A tritt nicht ein“ (alle Elemente aus Ω, die nicht in **A** sind).
 
 ---
 
-### **Beispiel: Würfeln**
+# Wahrscheinlichkeitsbegriffe
 
-* Ergebnisraum: Ω={1,2,3,4,5,6}\Omega = \{1, 2, 3, 4, 5, 6\}**Ω**=**{**1**,**2**,**3**,**4**,**5**,**6**}**
-* Elementares Ereignis: {3}\{3\}**{**3**}**
-* Ereignis: „Gerade Zahl“ A={2,4,6}A = \{2, 4, 6\}**A**=**{**2**,**4**,**6**}**
-* Sicheres Ereignis: Ω={1,2,3,4,5,6}\Omega = \{1, 2, 3, 4, 5, 6\}**Ω**=**{**1**,**2**,**3**,**4**,**5**,**6**}**
-* Unmögliches Ereignis: ∅\emptyset**∅** (z. B. „Eine 7 würfeln“)
+## 1. **Laplace- oder Klassischer Wahrscheinlichkeitsbegriff**
 
- **Mengenoperationen** :
-
-* „Gerade oder ungerade Zahl“: A∪B=ΩA \cup B = \Omega**A**∪**B**=**Ω**
-* „Gerade und Zahl >4> 4**>**4“: A∩B={6}A \cap B = \{6\}**A**∩**B**=**{**6**}**
+* **Definition** : Die Wahrscheinlichkeit eines Ereignisses wird durch das Verhältnis der günstigen Fälle zu allen möglichen (gleich wahrscheinlichen) Fällen im Ergebnisraum berechnet.
+* **Formel** :
+  P(A)=Anzahl der günstigen Fälle / Anzahl aller möglichen Fälle
+* **Anwendung** : Nur anwendbar, wenn alle Ergebnisse gleich wahrscheinlich sind.
+* **Beispiel** :
+* Beim Werfen eines fairen Würfels beträgt die Wahrscheinlichkeit für eine 3:
+  P(3)= 1/6
 
 ---
 
-### **Fazit**
+## 2. **Statistischer Wahrscheinlichkeitsbegriff**
 
-Zufallsexperimente nutzen die  **Mengenlehre** , um Ereignisse und deren Beziehungen systematisch zu beschreiben. Jedes Ereignis ist eine Teilmenge des Ergebnisraums Ω\Omega**Ω**.
+* **Definition** : Die Wahrscheinlichkeit eines Ereignisses basiert auf der relativen Häufigkeit des Ereignisses in vielen Wiederholungen eines Experiments.
+* **Merkmal** : Je häufiger das Experiment durchgeführt wird, desto stabiler wird die relative Häufigkeit (Gesetz der großen Zahlen).
+* **Beispiel** :
+* Werfen eines Würfels 100-mal:
+  * Eine 3 wurde 18-mal beobachtet.
+  * Die statistische Wahrscheinlichkeit für die 3 ist:
+    P(3)≈18 / 100
+
+---
+
+## 3. **Subjektiver Wahrscheinlichkeitsbegriff**
+
+* **Definition** : Die Wahrscheinlichkeit eines Ereignisses wird basierend auf persönlichem Glauben, Einschätzungen oder Erfahrungen angegeben.
+* **Merkmal** : Beruht nicht auf mathematischen Berechnungen oder relativen Häufigkeiten.
+* **Beispiel** :
+* Ein Wetterexperte schätzt die Wahrscheinlichkeit für Regen morgen auf 70 %, basierend auf Wettermodellen und persönlicher Erfahrung.
+
+# Axiome von Kolmogorov
+
+## 1. **Nichtnegative Wahrscheinlichkeit**
+
+* **Axiom** : Für jedes Ereignis **A** gilt:
+  P(A) ≥ 0
+* **Bedeutung** : Die Wahrscheinlichkeit eines Ereignisses kann niemals negativ sein.
+
+ **Beispiel** :
+Die Wahrscheinlichkeit, beim Würfeln eine Zahl zwischen 1 und 6 zu werfen, ist mindestens 0 (z. B. P(A) = 1/6)
+
+---
+
+## 2. **Sichere Wahrscheinlichkeit**
+
+* **Axiom** : Die Wahrscheinlichkeit des sicheren Ereignisses **S** (d. h. des gesamten Ergebnisraums) ist immer 1:
+  P(S)=1
+* **Bedeutung** : Es ist sicher, dass irgendein Ergebnis im Ergebnisraum **S** eintritt.
+
+ **Beispiel** :
+Beim Würfeln mit einem fairen Würfel ist sicher, dass eine Zahl zwischen 1 und 6 erscheint, also P(S)=1
+
+---
+
+## 3. **Additivität**
+
+* **Axiom** : Wenn zwei Ereignisse **A** und **B** disjunkt sind (d. h., sie können nicht gleichzeitig eintreten), dann gilt:
+  P(A∪B) = P(A) + P(B)
+  Das bedeutet: Die Wahrscheinlichkeit, dass **entweder A*** oder **B** eintritt, ist die Summe der Wahrscheinlichkeiten von **A** und **B**,  **falls sie sich nicht überschneiden** .
+
+---
+
+### Beispiel: Würfeln mit einem fairen Würfel
+
+* **Ereignis A** Die Zahl 1 wird gewürfelt.
+  Wahrscheinlichkeit:
+  P(A)=1/6
+* **Ereignis B** Die Zahl 2 wird gewürfelt.
+  Wahrscheinlichkeit:
+  P(B)=1/6
+* **Sind A und B disjunkt?**
+  **Ja, weil man beim Würfeln nur eine Zahl auf einmal erhalten kann. Es ist unmöglich, dass sowohl die 1 als auch die 2 gleichzeitig geworfen werden. Daher A∩B=∅**
+* **Was ist die Wahrscheinlichkeit, dass A** oder **B** eintritt?
+  Die Wahrscheinlichkeit ist die Summe der Einzelwahrscheinlichkeiten:
+  P(A∪B) = P(A) + P(B) = 1/6 + 1/6 = 2/6 = 1/3
+* Das bedeutet es gibt eine 1/3 Wahrscheinlichkeit, dass entweder eine 1 oder eine 2 geworfen wird.
+
+### Fazit:
+
+Werden die drei Axiome von Kolmogorov erfüllt, so besteht eine gültige Wahrscheinlichkeitsfunktion.
+
+---
+
+### Bedingte Wahrscheinlichkeit und stochastische Unabhängigkeit
+
+---
+
+#### **1. Bedingte Wahrscheinlichkeit**
+
+Die bedingte Wahrscheinlichkeit beschreibt die Wahrscheinlichkeit, dass ein Ereignis **A** eintritt,  **unter der Bedingung** , dass ein anderes Ereignis **B** bereits eingetreten ist. Sie wird definiert durch die Formel:
+
+P(A | B) = P(A ∩ B) / P(B)
+
+* **P(A | B)** : Die Wahrscheinlichkeit von **A**, unter der Bedingung, dass **B** eingetreten ist.
+* **P(A ∩ B)** : Die Wahrscheinlichkeit, dass sowohl **A** als auch **B** eintreten.
+* **P(B)** : Die Wahrscheinlichkeit, dass **B** eintritt, wobei P(B)>0
+
+**Beispiel:**
+Ein Würfel wird geworfen.
+
+* Ereignis **A**: Es wird eine gerade Zahl geworfen ({2, 4, 6}).
+* Ereignis **B**: Es wird eine Zahl größer als 3 geworfen ({4, 5, 6}).
+
+Die bedingte Wahrscheinlichkeit P(A∣B) ist die Wahrscheinlichkeit, dass eine gerade Zahl geworfen wird, wenn bekannt ist, dass die Zahl größer als 3 ist.
+
+* A∩B={4,6}
+* P(A∩B) =2/6 = 1/3
+* P(B)=3/6=1/2
+
+Daraus folgt:
+
+P(A | B) = P(A ∩ B) / P(B) = (1/3) / (1/2) = 2/3.
+
+---
+
+#### **2. Stochastische Unabhängigkeit**
+
+Zwei Ereignisse **A** und **B** sind  **stochastisch unabhängig** , wenn das Eintreten des einen Ereignisses **keinen Einfluss** auf die Wahrscheinlichkeit des anderen Ereignisses hat. Dies wird wie folgt definiert:
+
+P(A ∩ B) = P(A) ⋅ P(B)
+
+* **P(A ∩ B):** Wahrscheinlichkeit, dass A und **B** gemeinsam eintreten.
+* Wenn diese Gleichung gilt, dann gilt auch:
+
+P(A | B) = P(A) und P(B | A) = P(B).
+
+**Beispiel:**
+Ein Münzwurf:
+
+* Ereignis **A**: Die Münze zeigt Kopf.
+* Ereignis **B**: Die Münze zeigt Zahl.
+
+Da der Ausgang des einen Ereignisses keinen Einfluss auf das andere hat:
+
+P(A ∩ B) = P(A) ⋅ P(B) = (1/2) ⋅ (1/2) = 1/4.
+
+Die Ereignisse **A** und **B** sind stochastisch unabhängig.
+
+---
+
+### Zusammenfassung:
+
+1. **Bedingte Wahrscheinlichkeit** beschreibt die Wahrscheinlichkeit eines Ereignisses, wenn ein anderes Ereignis bereits eingetreten ist.
+   * Formel: P(A | B) = P(A ∩ B) / P(B).
+2. **Stochastische Unabhängigkeit** bedeutet, dass das Eintreten eines Ereignisses keine Auswirkung auf ein anderes hat.
+   * Bedingung: P(A ∩ B) = P(A) ⋅ P(B).
+3. **Verknüpfung** : Bei unabhängigen Ereignissen bleibt die bedingte Wahrscheinlichkeit unverändert: P(A | B) = P(A).
+
+---
+
+## Zufallsvariablen
+
+#### diskrete Zufallsvariablen
+
+1. es gibt endlich viele Ausprägungen
+2. zwischen zwei aufeinander folgenden x-Werten liegen keine weiteren möglichen x-werte
+3. für jede Ausprägung xi gibt es eine Wahrscheinlichkeit, diese Zuordnung nennt man Massenfunktion
+
+Die Formel beschreibt die Wahrscheinlichkeitsfunktion f(x) einer diskreten Zufallsvariable X:
+
+f(x) = P(X = x)
+
+f(x) = p_i, falls x = x_i,
+f(x) = 0, sonst.
+
+Bedeutung der Bestandteile:
+
+1. f(x): Eine Funktion, die jedem Wert x eine Wahrscheinlichkeit zuordnet.
+2. P(X = x): Die Wahrscheinlichkeit, dass die Zufallsvariable X den Wert x annimmt.
+3. x_i: Ein möglicher Wert, den X annehmen kann (Index i kennzeichnet verschiedene Werte).
+4. p_i: Die Wahrscheinlichkeit, dass X = x_i. Jede Wahrscheinlichkeit ist mit einem Wert x_i verknüpft.
+5. „0 sonst“: Für alle Werte von x, die X nicht annehmen kann, ist die Wahrscheinlichkeit 0.
+
+Beispiel:
+Für einen Würfelwurf (X ist die Augenzahl):
+
+* x_i = 1, 2, 3, 4, 5, 6,
+* p_i = 1/6 für alle x_i,
+* f(x) = 0 für alle anderen Werte (x nicht in {1, 2, 3, 4, 5, 6}).
+
+Interpretation:
+Die Funktion f(x) gibt die Wahrscheinlichkeiten für die möglichen Werte von X an.
+
+---
+
+### Verteilungsfunktion
+
+Die Verteilungsfunktion **F**(**x**) einer Zufallsvariable **X** beschreibt die Wahrscheinlichkeit, dass die Zufallsvariable **X** einen Wert kleiner oder gleich **x** annimmt. Mit der Verteilungsfunktion wird also nicht die Wahrscheinlichkeit eines einzelnen konkreten Wertes betrachtet, sondern die Wahrscheinlichkeit, dass ein bestimmter Wert nicht überschritten wird.
+
+F(x) = P(X ≤ x)
+
+Bedeutung der Bestandteile:
+
+1. F(x): Die kumulierte Wahrscheinlichkeit, dass die Zufallsvariable X höchstens den Wert x erreicht.
+2. P(X ≤ x): Die Wahrscheinlichkeit, dass X alle Werte bis einschließlich x annimmt.
+3. X: Eine Zufallsvariable, die bestimmte Werte annehmen kann.
+
+Eigenschaften der Verteilungsfunktion:
+
+1. F(x) ist immer nicht abnehmend: Für x1 ≤ x2 gilt F(x1) ≤ F(x2).
+2. Grenzwerte:
+   * lim(x → -∞) F(x) = 0
+   * lim(x → +∞) F(x) = 1
+3. Diskrete Sprünge: Bei diskreten Zufallsvariablen steigt F(x) an den Stellen, an denen die Zufallsvariable X Werte annimmt. Die Sprunghöhe entspricht der Wahrscheinlichkeit P(X = x).
+
+Beispiel:
+Für einen Würfelwurf (X ist die Augenzahl):
+
+* P(X = 1) = 1/6, P(X = 2) = 1/6, ..., P(X = 6) = 1/6.
+* Die Verteilungsfunktion F(x) ist:
+  * F(x) = 0, für x < 1
+  * F(x) = 1/6, für 1 ≤ x < 2
+  * F(x) = 2/6, für 2 ≤ x < 3
+  * F(x) = 3/6, für 3 ≤ x < 4
+  * F(x) = 4/6, für 4 ≤ x < 5
+  * F(x) = 5/6, für 5 ≤ x < 6
+  * F(x) = 1, für x ≥ 6
+
+Interpretation:
+Die Verteilungsfunktion F(x) zeigt, wie sich die Wahrscheinlichkeiten kumulieren, während x wächst. Sie steigt stufenweise an den diskreten Werten von X.
+
+---
+
+### Stetige Zufallsvariable
+
+1. Eine stetige Zufallsvariable kann beliebige Werte innerhalb eines Intervalls annehmen. Sie wird durch die **Wahrscheinlichkeitsdichtefunktion (PDF)** **f**(**x**) beschrieben, die keine Wahrscheinlichkeiten für einzelne Werte liefert (P(X=x)=0P), sondern die Verteilung der Wahrscheinlichkeiten über die Werte zeigt.
+
+   Die Wahrscheinlichkeit, dass **X** in einem Intervall **[**a**,**b**]** liegt, wird durch das Integral der Dichtefunktion berechnet:
+
+   P(a≤X≤b)=∫ab = Integral von unetre grenze a bis obere grenze b f(x) dx
+
+---
+
+### Erwartungswert Zufallsvariblen
+
+Der Erwartungswert einer Zufallsvariablen beschreibt den Durchschnittswert, den man bei unendlich vielen Wiederholungen eines Zufallsexperiments erwarten würde. Er ist eine zentrale Maßzahl zur Beschreibung der Verteilung.
+
+1. **Diskrete Zufallsvariablen:**
+   Für eine diskrete Zufallsvariable **X** mit den möglichen Werten **x**i und den Wahrscheinlichkeiten P(X=xi)=pi wird der Erwartungswert berechnet als:
+   E(X)=∑xi⋅pi
+2. **Stetige Zufallsvariablen:**
+   Für eine stetige Zufallsvariable **X** mit der Wahrscheinlichkeitsdichtefunktion **f**(**x**) wird der Erwartungswert berechnet als:
+   E(X)=∫−∞∞x⋅f(x)  dx
+
+**Interpretation:**
+Der Erwartungswert ist der Schwerpunkt der Verteilung und zeigt, wo der „mittlere“ Wert liegt. Er entspricht jedoch nicht immer einem tatsächlich möglichen Wert der Zufallsvariablen.
+
+---
+
+### Varianz von Zufallsvariablen
+
+Di eVarianz ist ein Maß der Streuung einer Zufallsvaribable um den Erwartungswert. Ist hie rähnlich zur empirischen V arianz nur das statt tatsächlich aufgetretener Messwerte, theoretisch mögliche Messwerte berechnet werden.
+
+ Formel für die Varianz:
+
+varX = E(X-EX)^2
+
+diskret:
+
+varX = ∑(xi-EX)^2 * f(xi)
+
+stetig:
+
+varx = ∫−∞∞ (x-EX)^2 ⋅f(x)  dx
