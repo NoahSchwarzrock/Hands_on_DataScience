@@ -1136,3 +1136,68 @@ varX = ∑(xi-EX)^2 * f(xi)
 stetig:
 
 varx = ∫−∞∞ (x-EX)^2 ⋅f(x)  dx
+
+---
+
+### Gleichverteilung
+
+**Diskrete Gleichverteilung:**
+Eine diskrete Gleichverteilung liegt vor, wenn alle möglichen Werte einer diskreten Zufallsvariablen die gleiche Wahrscheinlichkeit haben. Die Wahrscheinlichkeitsfunktion ist konstant und wird wie folgt definiert:
+
+* Beispiel: Bei einem fairen Würfel hat jeder der sechs möglichen Werte ({1, 2, 3, 4, 5, 6}) die Wahrscheinlichkeit P(X=x)=1 / 6
+
+**Stetige Gleichverteilung:**
+Eine stetige Gleichverteilung liegt vor, wenn die Werte einer stetigen Zufallsvariablen gleichmäßig über ein Intervall [a,b] verteilt sind. Die Wahrscheinlichkeitsdichtefunktion ist konstant und wird wie folgt definiert:
+
+* Die Dichtefunktion **f**(**x**) ist:
+  f(x)=1b−a für x∈[a,b]
+* Die Wahrscheinlichkeit, dass **X** in einem Teilintervall **[**c**,**d**]** liegt, ist proportional zur Länge des Intervalls
+* Beispiel: Die Zufallsvariable **X**, die die Zeit beschreibt, die ein Bus in einem Intervall von 0 bis 10 Minuten ankommt, ist gleichverteilt. Hier wäre f(x)=1/10  für x∈[0,10]
+
+**Unterschied:**
+
+* Bei der diskreten Gleichverteilung gibt es eine endliche oder abzählbare Anzahl von Werten mit gleicher Wahrscheinlichkeit.
+* Bei der stetigen Gleichverteilung gibt es unendlich viele Werte in einem Intervall, und die Wahrscheinlichkeit ist über dieses Intervall gleichmäßig verteilt.
+
+---
+
+### Bernoulli-Modell
+
+
+Das Bernoulli-Modell beschreibt ein Experiment, das genau zwei mögliche Ergebnisse hat, typischerweise als Erfolg (1) und Misserfolg (0) bezeichnet. Es wird häufig verwendet, um Zufallsprozesse mit dichotomen (zweiwertigen) Ergebnissen zu modellieren.
+
+### Eigenschaften des Bernoulli-Modells:
+
+1. **Definition der Zufallsvariablen** :
+   Die Zufallsvariable **X** kann zwei Werte annehmen:
+   X=1(Erfolg) mit Wahrscheinlichkeit **p**,
+   X=0 (Misserfolg) mit Wahrscheinlichkeit 1-p
+2. **Wahrscheinlichkeitsfunktion** :
+   Die Wahrscheinlichkeitsfunktion des Bernoulli-Modells ist:
+   P(X = x) = p^x * (1 - p)^(1 - x)
+   wobei **x**∈**{**0**,**1**}**
+
+* Für x=1 ist P(X=1)=p
+* Für x=0 ist P(X=0)=1−p
+
+1. Der Erwartungswert gibt den durchschnittlichen Wert der Zufallsvariablen an:
+   E(X) = p.
+2. **Varianz** :
+   Die Varianz misst die Streuung der Zufallsvariablen:
+   Var(X) = p * (1 - p).
+3. **Unabhängigkeit** :
+   In einer Bernoulli-Kette, die aus mehreren unabhängigen Bernoulli-Experimenten besteht, sind die einzelnen Ergebnisse voneinander unabhängig.
+
+### Beispiel:
+
+Ein Münzwurf kann als Bernoulli-Experiment modelliert werden:
+
+* Erfolg (X=1): Kopf mit p = 0.5
+* Misserfolg (X=0): Zahl mit 1−p = 0.5
+
+Hier wäre die Wahrscheinlichkeitsfunktion:
+P(X = 1) = 0.5 und P(X = 0) = 0.5.
+
+### Anwendung:
+
+Das Bernoulli-Modell ist die Grundlage für viele statistische Modelle und wird z. B. in der Modellierung von Binomialverteilungen, in der Fehleranalyse oder bei Ja/Nein-Fragen verwendet.
