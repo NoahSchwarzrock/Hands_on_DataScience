@@ -1,7 +1,5 @@
-import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import plotly.express as px
+import os
 
 
 def load_df(location):
@@ -20,4 +18,7 @@ def load_df(location):
             df[col] = df[col].astype(float)
     return df
 
-df = load_df("data/BFw_mission_data_daily.csv")
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(base_dir, "data", "BFw_mission_data_daily.csv")
+df = load_df(file_path)
